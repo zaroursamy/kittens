@@ -1,3 +1,10 @@
 console
 reload
 compile
+reload
+compile
+test
+y~test
+~test
+testOnly
+testOnly LogicSpec

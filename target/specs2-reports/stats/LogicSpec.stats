@@ -1,0 +1,7 @@
+<LogicSpec-stats timestamp="1476370658342"><stats time="92" expectations="1" successes="1" examples="1"></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476370766591"><stats time="14" expectations="1" successes="1" examples="1"></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476379022274"><stats time="20" expectations="1" successes="1" examples="1"></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476379033159"><stats time="14" expectations="2" successes="2" examples="2"><trend><stats time="14" expectations="1" successes="1" examples="1"></stats></trend></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476379179546"><stats time="14" expectations="3" successes="3" examples="3"><trend><stats time="14" expectations="1" successes="1" examples="1"></stats></trend></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476379346656"><stats time="80" expectations="3" successes="3" examples="3"></stats></LogicSpec-stats>
+<LogicSpec-stats timestamp="1476379366256"><stats time="43" expectations="3" successes="3" examples="3"></stats></LogicSpec-stats>
