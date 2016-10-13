@@ -8,7 +8,6 @@
 [debug] resolving dependencies for configuration 'default'
 [debug] == resolving dependencies for default#kittens$sbt_2.10;1.0 [default]
 [debug] == resolving dependencies default#kittens$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.8 [default->default(compile)]
-[debug] no default cache defined: set to C:\Users\Samy\.ivy2\cache
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -704,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1036ms :: artifacts dl 42ms
+[debug] :: resolution report :: resolve 936ms :: artifacts dl 61ms
 [debug] 	report for default#kittens$sbt_2.10;1.0 default produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\target\resolution-cache\reports\default-kittens$sbt_2.10-default.xml
-[debug] 	resolve done (1036ms resolve - 42ms download)
+[debug] 	resolve done (936ms resolve - 61ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#kittens$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -1070,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 245ms :: artifacts dl 59ms
+[debug] :: resolution report :: resolve 169ms :: artifacts dl 64ms
 [debug] 	report for default#kittens$sources_2.10;1.0 default produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\target\resolution-cache\reports\default-kittens$sources_2.10-default.xml
-[debug] 	resolve done (245ms resolve - 59ms download)
+[debug] 	resolve done (169ms resolve - 64ms download)

@@ -4,7 +4,7 @@
 		module="kittens$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20161013125452"
+		publication="20161013165324"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

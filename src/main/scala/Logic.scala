@@ -1,7 +1,10 @@
 object Logic {
-
-  def mathLikelihood(k: Kitten, p: Preference): Double ={
-    val nb = p.attributes.map(att => k.attributes.contains(att)).map(x => if(x) 1.0 else 0)
-    nb.sum/nb.length
+  def matchLikelihood(kitten: Kitten,
+                      buyer: Preference): Double = {
+    val matches = buyer.attributes map { attribute =>
+      kitten.attributes contains attribute
+    }
+    val nums = matches map { b => if(b) 1.0 else 0.0 }
+    nums.sum / nums.length
   }
 }
