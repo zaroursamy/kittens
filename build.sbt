@@ -41,3 +41,16 @@ lazy val common = {
     libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
   )
 }
+
+// les depdendances de projet sont definies grace a la methode dependsOn
+lazy val analytics = {
+  Project("analytics", file("analytics"))
+    .dependsOn(common)
+    .settings()
+}
+
+lazy val website = {
+  Project("website", file("website"))
+    .dependsOn(common)
+    .settings()
+}
