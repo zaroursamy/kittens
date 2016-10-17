@@ -17,7 +17,7 @@ scalaVersion := "2.10.6"
 /*
 on cree une fonction pour construire des sous-projets
  */
-def PreownedKittenProject(name: String): Project ={
+def preownedKittenProject(name: String): Project ={
   Project(name, file(name))
     .settings(
       version := "1.0",
@@ -27,50 +27,48 @@ def PreownedKittenProject(name: String): Project ={
 }
 
 /*
-definition d'un autre sous projet dans sbt
-Project(nomProjetDansConsoleSbt, file(localisationDuProjet))
-il est recommande d'utiliser des lazy vals pour les projets (une val est executee lors de sa definition, une lazy lors de son premier appel)
- */
-lazy val common = {
-  PreownedKittenProject("common")
-    .settings()
-}
-
-// les depdendances de projet sont definies grace a la methode dependsOn
-lazy val analytics = {
-  PreownedKittenProject("analytics")
-    .dependsOn(common)
-    .settings()
-}
-
-lazy val website = {
-  PreownedKittenProject("website")
-    .dependsOn(common)
-    .settings()
-}
-
-/*
  on cree nos propres tasks
   */
 
 /*
  le git sha n'est pas specifique au common project, mais au build lui meme
- on l'attache donc au build: sbt executera la tache une fois pour toute
+ on l'attache donc au build: sbt executera la tache une fois pour toute:
+ on a pas a le redefinir dans tous les projets qui l'utilisent
   */
 gitHeadCommitSha in ThisBuild := Process("git rev-parse HEAD").lines.head
-
-// on veut qu'il soit utilise dans analysis et website
-makeVersionProperties := {
-  val propFile = new File((resourceManaged in Compile).value, "version.properties")
-  val content = "version=%s" format gitHeadCommitSha.value
-  IO.write(propFile, content)
-  Seq(propFile)
-}
 
 /*
 on doit dire a sbt d'inclure le fichier version.properties dans le runtime classpath du site web
 resourceGenerators est un Setting utilise pour dire qu'on genere des ressources
  */
-resourceGenerators in Compile <+= makeVersionProperties
+//resourceGenerators in Compile <+= makeVersionProperties
 
+/*
+definition d'un autre sous projet dans sbt
+Project(nomProjetDansConsoleSbt, file(localisationDuProjet))
+il est recommande d'utiliser des lazy vals pour les projets (une val est executee lors de sa definition, une lazy lors de son premier appel)
+ */
+lazy val common = {
+  preownedKittenProject("common")
+    .settings(
+      makeVersionProperties := {
+        val propFile = new File((resourceManaged in Compile).value, "version.properties")
+        val content = "version=%s" format gitHeadCommitSha.value
+        IO.write(propFile, content)
+        Seq(propFile)
+      }
+    )
+}
 
+// les depdendances de projet sont definies grace a la methode dependsOn
+lazy val analytics = {
+  preownedKittenProject("analytics")
+    .dependsOn(common)
+    .settings()
+}
+
+lazy val website = {
+  preownedKittenProject("website")
+    .dependsOn(common)
+    .settings()
+}
