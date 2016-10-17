@@ -38,3 +38,7 @@ common/test
 reload
 common/test
 exit
+common/clean
+website/compile
+:q
+exit
