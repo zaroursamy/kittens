@@ -25,3 +25,16 @@ compile
 show makeVersionProperties
 :q
 exit
+scalaVersion
+scalacOptions
+show scalacOptions
+show fork
+show packMain
+reload
+projects
+common/test
+compile
+common/test
+reload
+common/test
+exit
