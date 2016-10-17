@@ -8,3 +8,20 @@ y~test
 ~test
 testOnly
 testOnly LogicSpec
+compile
+run
+test
+task
+tasks
+reload
+tasks
+test
+reload
+tasks
+gitHeadCommitSha
+show gitHeadCommitSha
+reload
+compile
+show makeVersionProperties
+:q
+exit

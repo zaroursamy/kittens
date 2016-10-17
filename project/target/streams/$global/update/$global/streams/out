@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/D:/Data%20de%20C/Documents%20de%20C/Ebiznext/SBT/kittens/project/}kittens-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/zarour/Documents/SBT/kittens/kittens/project/}kittens-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#kittens-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -16,7 +16,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#kittens-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kittens-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@206d76[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6291fdf5[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -1766,19 +1766,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 485ms :: artifacts dl 40ms[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT compile produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT runtime produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT test produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT provided produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT optional produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT compile-internal produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT runtime-internal produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT test-internal produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT plugin produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT sources produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT docs produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT pom produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT scala-tool produced in D:\Data de C\Documents de C\Ebiznext\SBT\kittens\project\target\resolution-cache\reports\default-kittens-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (485ms resolve - 40ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 390ms :: artifacts dl 17ms[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT compile produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT runtime produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT test produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT provided produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT optional produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT compile-internal produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT runtime-internal produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT test-internal produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT plugin produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT sources produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT docs produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT pom produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#kittens-build;0.1-SNAPSHOT scala-tool produced in /Users/zarour/Documents/SBT/kittens/kittens/project/target/resolution-cache/reports/default-kittens-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (390ms resolve - 17ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
