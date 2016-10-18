@@ -4,7 +4,7 @@
 		module="kittens-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161018153009"
+		publication="20161018165045"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

@@ -113,3 +113,9 @@ show baseDirectory
 show sourceDirectory
 inspect tree publish
 exit
+reload
+update
+package
+package --help
+help package
+exit

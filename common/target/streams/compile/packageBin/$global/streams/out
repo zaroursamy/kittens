@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/common_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	Logic.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Logic.class[0m
+[0m[[0mdebug[0m] [0m	Preference$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Preference$.class[0m
+[0m[[0mdebug[0m] [0m	Logic$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Logic$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	Logic$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Logic$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	Kitten$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Kitten$.class[0m
+[0m[[0mdebug[0m] [0m	Kitten.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Kitten.class[0m
+[0m[[0mdebug[0m] [0m	Preference.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Preference.class[0m
+[0m[[0mdebug[0m] [0m	Logic$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/zarour/Documents/SBT/kittens/kittens/common/target/scala-2.10/classes/Logic$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
