@@ -6,7 +6,9 @@ val gitHeadCommitSha = taskKey[String]("Determine le SHA de l'actuel commit git"
 
 val makeVersionProperties = taskKey[Seq[File]]("Cree un fichier version.properties")
 
-name := "kittens"
+name := "preownedkittens-core"
+
+organization := "org.lostkittens"
 
 //version := "1.0"
 
