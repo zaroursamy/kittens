@@ -12,13 +12,23 @@ name := "kittens"
 
 scalaVersion := "2.10.6"
 
+/*
+on modifie la structure du build du projet, en modifiant ce qui est a compiler ou non,
+grace a sourceDirectory
+ */
 //sourceDirectory := new File(baseDirectory.value, "mesSourceeeees")
 
-sourceDirectory in Compile := new File(sourceDirectory.value, "src")
+sourceDirectory in Compile := new File(sourceDirectory.value, "sourceCompile")
 
 sourceDirectory in Test := new File(sourceDirectory.value, "test")
 
-//libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+/*
+on filtre selon que l'on veut inclure/exclure les source files
+ */
+includeFilter in (Compile, unmanagedSources) := "*.scala"
+
+excludeFilter in (Compile, unmanagedSources) := NothingFilter
+
 
 /*
 on cree une fonction pour construire des sous-projets

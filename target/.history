@@ -86,3 +86,8 @@ reload
 show sourceDirectory
 show scalaSource
 exit
+kittens/sourceDirectory
+resourceDirectory
+scalaSource
+git status
+exit
