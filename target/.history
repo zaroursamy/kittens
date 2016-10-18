@@ -82,3 +82,7 @@ show sourceDirectory:Compile
 show sourceDirectory 
 show gitHeadCommitSha
 exit
+reload
+show sourceDirectory
+show scalaSource
+exit
