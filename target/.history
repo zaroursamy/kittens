@@ -49,3 +49,36 @@ tasks
 show 
 show gitHeadCommitSha
 show makeVersionProperties
+name
+inspect tree compile:compile
+inspect tree sources
+javaSource
+show javaSource
+show unmanagedSources
+show managedSources
+inspect tree sources
+inspect tree resources
+show resourceDirectory
+show resourceDirectories
+inspect tree test:sources
+show sourceDirectory
+show resourceDirectory
+show baseDirectory
+exit
+show baseDirectory
+show common/baseDirectory
+reload
+sourceDirectory
+baseDirectory
+sourceDirector
+sourceDirectory
+reload
+sourceDirectory
+reload
+show sourceDirector
+show sourceDirectory
+show sourceDirectory in Compile
+show sourceDirectory:Compile
+show sourceDirectory 
+show gitHeadCommitSha
+exit

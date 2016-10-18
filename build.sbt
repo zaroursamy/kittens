@@ -12,6 +12,12 @@ name := "kittens"
 
 scalaVersion := "2.10.6"
 
+sourceDirectory := new File(baseDirectory.value, "mesSourceeeees")
+
+sourceDirectory in Compile := new File(sourceDirectory.value, "production")
+
+sourceDirectory in Test := new File(sourceDirectory.value, "test")
+
 //libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
 
 /*
