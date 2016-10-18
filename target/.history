@@ -42,3 +42,10 @@ common/clean
 website/compile
 :q
 exit
+reload
+compile
+name
+tasks
+show 
+show gitHeadCommitSha
+show makeVersionProperties
