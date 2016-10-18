@@ -4,7 +4,7 @@
 		module="kittens$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161018114640"
+		publication="20161018133011"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -24,9 +24,13 @@ sourceDirectory in Test := new File(sourceDirectory.value, "test")
 
 /*
 on filtre selon que l'on veut inclure/exclure les source files
+on peut scoper des projects, configurations et tasks avec la methode in
  */
-includeFilter in (Compile, unmanagedSources) := "*.scala"
 
+// je veux que les .scala soient les fichiers qui soient compilés dans les unmanaged sources
+includeFilter in (Compile, unmanagedSources) := "*.scala" // glob pattern
+
+// pas de fichiers a exclure, y compris les fichiers cachés
 excludeFilter in (Compile, unmanagedSources) := NothingFilter
 
 
@@ -62,7 +66,8 @@ resourceGenerators est un Setting utilise pour dire qu'on genere des ressources
 /*
 definition d'un autre sous projet dans sbt
 Project(nomProjetDansConsoleSbt, file(localisationDuProjet))
-il est recommande d'utiliser des lazy vals pour les projets (une val est executee lors de sa definition, une lazy lors de son premier appel)
+il est recommande d'utiliser des lazy vals pour les projets (une val est executee lors de sa definition,
+une lazy lors de son premier appel)
  */
 lazy val common = {
   preownedKittenProject("common")

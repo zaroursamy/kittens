@@ -91,3 +91,14 @@ resourceDirectory
 scalaSource
 git status
 exit
+kittens/sourceDirectory
+unmanagedSources
+show unmanagedSources
+show managedSources
+inspect name
+inspect tree dependencyClasspath
+show unmanagedClasspath
+unmanagedClasspath
+show unmanagedJars
+show unmanagedSourceDirectories
+exit

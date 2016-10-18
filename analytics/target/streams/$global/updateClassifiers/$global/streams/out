@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for com.preownedkittens#analytics$sources_2.10;1.0 [compile]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2659e7d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50df7b61
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->com.preownedkittens#common_2.10;1.0 [compile->default(compile)]
 [info] Resolving com.preownedkittens#common_2.10;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d7a02b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5410bb4d
 [debug] 	found com.preownedkittens#common_2.10;1.0 in inter-project
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for com.preownedkittens#analytics$sources_2.10;1.0 [runtime]
@@ -51,7 +51,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->com.preownedkittens#common_2.10;1.0 [test->default(compile)]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2_2.10;1.14 [test->default(compile)]
 [info] Resolving org.specs2#specs2_2.10;1.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cff79bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20bf70e2
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2_2.10;1.14
 [debug] 	found org.specs2#specs2_2.10;1.14 in sbt-chain
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2_2.10;1.14 [test->runtime]
@@ -59,7 +59,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2_2.10;1.14 [test->master]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->default(compile)]
 [info] Resolving org.specs2#specs2-scalaz-core_2.10;7.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1603c28f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f892145
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.10;7.0.0
 [debug] 	found org.specs2#specs2-scalaz-core_2.10;7.0.0 in sbt-chain
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->runtime]
@@ -67,7 +67,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-core_2.10;7.0.0 [test->master]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->default(compile)]
 [info] Resolving org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5da64785
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79e05525
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-scalaz-concurrent_2.10;7.0.0
 [debug] 	found org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 in sbt-chain
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->runtime]
@@ -75,7 +75,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#specs2-scalaz-concurrent_2.10;7.0.0 [test->master]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#scalaz-effect_2.10;7.0.0 [test->default(compile)]
 [info] Resolving org.specs2#scalaz-effect_2.10;7.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1431f0d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d263bb9
 [debug] sbt-chain: module revision found in cache: org.specs2#scalaz-effect_2.10;7.0.0
 [debug] 	found org.specs2#scalaz-effect_2.10;7.0.0 in sbt-chain
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#scalaz-effect_2.10;7.0.0 [test->runtime]
@@ -83,7 +83,7 @@
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#scalaz-effect_2.10;7.0.0 [test->master]
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#scalaz-core_2.10;7.0.0 [test->default(compile)]
 [info] Resolving org.specs2#scalaz-core_2.10;7.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@315c9b49
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc9fbc5
 [debug] sbt-chain: module revision found in cache: org.specs2#scalaz-core_2.10;7.0.0
 [debug] 	found org.specs2#scalaz-core_2.10;7.0.0 in sbt-chain
 [debug] == resolving dependencies com.preownedkittens#analytics$sources_2.10;1.0->org.specs2#scalaz-core_2.10;7.0.0 [test->runtime]
@@ -260,7 +260,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 130ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 142ms :: artifacts dl 15ms
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 compile produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-compile.xml
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 runtime produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-runtime.xml
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 test produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-test.xml
@@ -274,4 +274,4 @@
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 docs produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-docs.xml
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 pom produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-pom.xml
 [debug] 	report for com.preownedkittens#analytics$sources_2.10;1.0 scala-tool produced in /Users/zarour/Documents/SBT/kittens/kittens/analytics/target/resolution-cache/reports/com.preownedkittens-analytics$sources_2.10-scala-tool.xml
-[debug] 	resolve done (130ms resolve - 12ms download)
+[debug] 	resolve done (142ms resolve - 15ms download)
