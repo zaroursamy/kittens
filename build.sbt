@@ -10,7 +10,8 @@ name := "preownedkittens-core"
 
 organization := "org.lostkittens"
 
-//version := "1.0"
+// major.minor.micro-qualifier
+version := "1.0.0"
 
 scalaVersion := "2.10.6"
 
