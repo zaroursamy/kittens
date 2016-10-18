@@ -33,6 +33,17 @@ includeFilter in (Compile, unmanagedSources) := "*.scala" // glob pattern
 // pas de fichiers a exclure, y compris les fichiers cachés
 excludeFilter in (Compile, unmanagedSources) := NothingFilter
 
+/*
+maven repository avec resolver
+ */
+resolvers += "Preowned Kitten Maven Repository" at "http://internal-repo.preowned-kittens.com"
+
+/*
+mappings: pour ajouter un fichier LICENSE au jar final, localisé dans LICENSE dans la base directory,
+ avec pour nom PREOWNED-KITTEN-LICENSE
+ */
+mappings in packageBin in Compile += new File(baseDirectory.value, "LICENSE") -> "PREOWNED-KITTEN-LICENSE"
+
 
 /*
 on cree une fonction pour construire des sous-projets
@@ -42,7 +53,9 @@ def preownedKittenProject(name: String): Project ={
     .settings(
       version := "1.0",
       organization := "com.preownedkittens",
-      libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+      //libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+      // le %% permet de s'affranchir de la version de scala
+      libraryDependencies += "org.specs2" %% "specs2" % "1.14" % "test"
     )
 }
 

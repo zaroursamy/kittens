@@ -102,3 +102,14 @@ unmanagedClasspath
 show unmanagedJars
 show unmanagedSourceDirectories
 exit
+reload
+show unmanagedClasspath
+reload
+compile
+test
+inspect tree package
+reload
+show baseDirectory
+show sourceDirectory
+inspect tree publish
+exit

@@ -1,15 +1,65 @@
+[0m[[0mdebug[0m] [0mInvalidating /Users/zarour/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar: could not find class org.specs2.mutable.Specification on the classpath.[0m
+[0m[[0mdebug[0m] [0mThe Preference source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) Preference: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) Preference.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe Preference$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) Preference$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) Preference$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe Logic$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, matchLikelihood, Logic, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) Logic$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) Logic$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala: Set(matchLikelihood, Logic)[0m
+[0m[[0mdebug[0m] [0mThe Kitten$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) Kitten$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) Kitten$.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe Kitten source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) Kitten: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) Kitten.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala: Set(<init>)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	removed:Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(Preference,ModifiedNames(regularNames = notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(Preference$,ModifiedNames(regularNames = notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(Logic$,ModifiedNames(regularNames = notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, matchLikelihood, Logic, toString, !=, getClass, ne, eq, ##, finalize, hashCode, implicitNames = )), NamesChange(Kitten$,ModifiedNames(regularNames = notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )), NamesChange(Kitten,ModifiedNames(regularNames = notify, wait, copy$default$2, $asInstanceOf, Preference, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, attributes, isInstanceOf, <init>, id, ==, clone, copy, toString, !=, getClass, Kitten, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Users/zarour/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	external source: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 0 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/zarour/Documents/SBT/kittens/kittens/src/test/scala/LogicSpec.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	seqToResult, anyToJSonValueSpec, tupleToSeq2, implicitParam9, describeExpectation, asResult, toNotStringMatcher, fragmentsFragmentAndFormattingFragment, dataTableFragments, implicitParam4, doAfter, akaShould, toFileResultMatcher, thisBlock, matchFragments, resultExample, specificationStructureToFragments, functionToMatcher, implicitsAreAllowed, stringToHtmlLinkFragments, matchExample, akaMust, implicitParam1, fragmentsFragmentToFragments, toNotMatcherJson, adapterFunction, toExceptionMatcher, functionAndMessagesToMatcher, argumentsFragment, scopeAsResult, toNeutralMatcherNumeric, scalaArrayIsSized, anyBeHaveMatcher, toMapValueResultMatcher, stringToHtmlLinkFragments2, functionToMatcher2, tupleToSeq10, booleanFragmentsFragment, fragments, tupleToSeq5, toNeutralMatcherOrdered, resultFragments, fragmentAndFormattingFragment, implicitParam8, textAndFormattingFragment, matcherFunction2, pairFunctionToMatcher, toNeutralMatcherElem, toJsonRegex, booleanFragments, theValue, anyToArgProperty, toJsonValue, identifySpecificationStructure, combineBoolean, stringMatcher, fragmentFragments, implicitParam3, toXmlResultMatcher, toMapKeyResultMatcher, toStringResultMatcher, tripletFunctionToMatcher, described, matchResultAsResult, toDifferenceFilter, toLinesContentResultMatcher, toPathResultMatcher, toJsonPairSpec, text, describe, aBooleanExample, tupleToSeq6, doBefore, implicitParam7, longAsTime, upcastThen, implicitParam, debug, matcherFunction, matcherFunction3, functionAndKoMessageToMatcher, verifyFunction, textFragment, toNotMatcherElem, booleanExample, aMatchResultExample, specIdentificationMarkdownLink, intToRichLong, toAnyMatcherResult, implicitParam2, theBlock, matchFragmentsFragment, regexToJSonValueSpec, tupleToSeq4, fragmentsFragments, textStart, tupleToSeq7, implicitParam10, lazyfy, toOrderedResultMatcher, RegexFragmentToFragments, combineMatchResult, implicitParam6, ***If you see this message this means that you've forgotten an operator after the description string: you should write "example" >> result ***, toEitherResultMatcher, scalaTraversableIsSized, toAnyRefMatcherResult, ToDelta, toPendingUntilFixed, toMapResultMatcher, downcastGiven, seqContentForMatchers, postfixOpsAreAllowed, fileContentForMatchers, include, gwtToFragment, matchResultFunctionToMatcher, fragmentsAndFormattingFragment, stringMatcherToJSonValueSpec, orderedSeqMatchResult, anyWithEmpty, traversable, toNeutralStringMatcher, forExample, outsideFunctionToResult, tupleToSeq3, updowncastWhen, title, toBeLikeResultMatcher, thisValue, aResultExample, combineResult, toNumericResultMatcher, aDataTableExample, toResult, inScope, fromMatchResult, canBeEqual, asPath, sized, tupleToSeq9, contextAsResult, tupleToSeq8, dataTableExample, doAround, toPartialFunctionResultMatcher, javaCollectionIsSized, toJsonStringMatcher, inExample, toOptionResultMatcher, stringIsSized, implicitParam5, toClassMatcherResult, exampleFactory, matchResultSeqAsResult.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
